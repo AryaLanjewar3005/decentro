@@ -1,5 +1,6 @@
 import './App.css'
 import Navigation from './components/navigation/navigation'
+import IfpsUpload from './components/utils/ipfs/ipfs'
 
 import CardAuction from './pages/card-auction/card-auction'
 import GatchaPage from './pages/gatcha/gatcha'
@@ -15,7 +16,8 @@ function App() {
     <div className='bg-black p-2 h-screen'>
       <Navigation/>
       {/* <CardAuction information={firebase}/> */}
-      <GatchaPage/>
+      {/* <GatchaPage/> */}
+      <IfpsUpload/>
     </div>
   )
 }
