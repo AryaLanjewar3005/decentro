@@ -2,7 +2,7 @@ import Cards from "../../components/cards/cards";
 import Button from "../../components/utils/button/button";
 import Incrementor from "../../components/utils/incementor";
 
-const CardAuction = ({information}) => {
+const CardAuction = ({ information }) => {
   return (
     // main container of card-auction page
     <div className="bg-black p-20 flex w-full justify-between items-center">
@@ -26,12 +26,12 @@ const CardAuction = ({information}) => {
         </div>
         {/* Power level and other stuff */}
         <div className="ml-20 mt-20 p-4 flex justify-between">
-            {/* For power bidding  */}
+          {/* For power bidding  */}
           <div>
             <h3 className="text-white text-lg">Bid Power Level</h3>
             <Incrementor />
           </div>
-          <Button title="Vote/Bid"/>
+          <Button title="Vote/Bid" />
         </div>
       </div>
     </div>
