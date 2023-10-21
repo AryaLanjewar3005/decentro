@@ -10,10 +10,14 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@openzeppelin/contracts": "^5.0.0",
     "ipfs-http-client": "^60.0.1",
+    "mocha": "^10.2.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-dropzone": "^14.2.3"
+    "react-dropzone": "^14.2.3",
+    "solc": "^0.8.21",
+    "web3": "^4.2.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",
